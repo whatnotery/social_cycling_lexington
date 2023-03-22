@@ -6,8 +6,6 @@
     },
     "deploy": {
       "startCommand": "bridgetown deploy",
-      "healthcheckPath": "/",
-      "healthcheckTimeout": 100,
       "restartPolicyType": "never"
     }
   }
