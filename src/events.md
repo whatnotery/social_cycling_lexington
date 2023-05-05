@@ -7,7 +7,7 @@ layout: page
   {% for event in collections.events.resources %}
   <div class="event-container">
   <img src="{{ event.data.image | relative_url }}" class="event-image" alt="{{ event.data.title }}" width="170" height="170">
-    <span>
+   <br> <span>
       <h2>
         {{ event.data.title }}
       </h2>  
