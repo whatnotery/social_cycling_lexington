@@ -60,7 +60,7 @@ body > nav a {
 main {
   margin: 2rem auto 4rem;
   max-width: 35rem;
-  min-height: calc(40vh - 200px);
+  min-height: calc(45vh - 00px);
   padding: 25px 25px 50px;
   background: white;
   border-radius: 3px;
@@ -72,7 +72,7 @@ main {
 
 footer {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-size: 1em;
 }
 
@@ -85,4 +85,18 @@ hr {
 .logo {
   height: 250px;
   width: 250px;
+}
+
+.event-container {
+  border-radius: 5%;
+  border: dotted 3px;
+  margin: 3%;
+  padding: 3%;
+}
+
+.event-image {
+  float: left;
+  border-radius: 4%;
+  padding-right: 2%;
+  margin-top: 6%;
 }
