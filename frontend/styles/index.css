@@ -92,11 +92,23 @@ hr {
   border: dotted 3px;
   margin: 3%;
   padding: 3%;
+  max-width: 35em;
 }
 
 .event-image {
   float: left;
   border-radius: 4%;
-  padding-right: 2%;
+  padding-right: 4%;
   margin-top: 6%;
 }
+
+.image-title-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+image-title-flex > h2 {
+  margin-left: 1rem;
+}
+
