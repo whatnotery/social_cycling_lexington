@@ -1,5 +1,6 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
+title: "Events"
 layout: page
 ---
   {% for event in collections.events.resources %}
