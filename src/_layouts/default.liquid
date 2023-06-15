@@ -4,7 +4,12 @@
     {% render "head", metadata: site.metadata, title: data.title %}
   </head>
   <body class="{{ data.layout }} {{ data.page_class }}">
-    {% render "navbar", metadata: site.metadata, resource: resource %}
+    <header>
+      <img
+        src="{{ '/images/scl.png' | relative_url }}"
+        alt="Logo"
+        class="logo" />
+    </header>
 
     <main>
       {{ content }}
